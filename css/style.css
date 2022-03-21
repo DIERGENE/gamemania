@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #DA190D;
+    height: 170px;
+}
+.container_grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+.posicao_grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.menu{
+    width:660px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.container_departamentos {
+    width:1200px;
+    margin: 0 auto;
+    
+}
+.posicao {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.busca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+    background-color: #DA190D;
+    padding: 10px 10px;
+    border-radius:200px;  
+}
+input {
+    color: white;
+    background-color: #DA190D;
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 650px;
+    font-size: 22px;
+}
+#campo_busca{
+    border: 1px solid;
+    border-radius: 5px; 
+    color:#D2C9E5;
+    background-color: #DA190D;
+    font-size: 12px #FFFF;
+}
+.carrousel {
+    width: 1000px;
+    margin-left: 490px;
+   
+   
+}
+
+.carousel-indicators {
+        width: 1000px;
+        display: center;
+}
+.ofertas_destaque {
+    
+    margin: 20px;
+    text-align: center
+      
+}
+
+.produto {
+    text-align: center;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    
+}
+
+.produto a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+}
+.produto h4 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+}
+.produto h3 {
+    font-family: sans-serif;
+    color: black;
+    font-size:16px;
+}
+
+.nome-produto {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+   
+.preco-produto {
+    font-family: sans-serif;
+    margin-bottom: 7px;
+}
+/**RODAPE**/
+
+footer {
+    background: red;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+    float: flex;
+    
+}
+
+footer h4 {
+    color: white;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .nav-bar a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .nav-bar a:hover {
+    color: #e1c7c7;
+    text-decoration: none;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: block;
+    counter-reset: item;
+}
+
+/**sobre**/
+
+
+
+.texto {
+    width: 90%;
+    margin: 80px;
+
+}
+.textoh2 {
+    text-align: center;
+}
+    
+p {
+    text-align: center; 
+    font-size:sans-serif;
+    margin: 100px;
+    text-align: justify;
+
+}
+
+
+
+
+    
+
